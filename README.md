@@ -52,7 +52,7 @@ Este proyecto demuestra cómo implementar **pruebas automáticas en Java** utili
 ## 🚀 Instalación y ejecución
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/automated-testing-java.git
+   git clone https://github.com/juanfcoesq/AT-Java.git
    cd automated-testing-java
 Compilar el proyecto:
 
