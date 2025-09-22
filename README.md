@@ -1,20 +1,26 @@
-# Automated Testing en Java
+# Automated Testing in Java
 
-Este proyecto demuestra cómo implementar **pruebas automáticas en Java** utilizando **JUnit 5** y **Mockito**, con ejemplos de **tests unitarios, de integración y TDD**. El objetivo es mostrar buenas prácticas de testing para asegurar la calidad del software.
+![Java](https://img.shields.io/badge/Java-17+-orange)
+![Maven](https://img.shields.io/badge/Maven-3.8+-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
----
 
-## 📌 Características principales
-- ✅ **JUnit 5** para la creación de tests unitarios.  
-- ✅ **Mockito** para la simulación de dependencias (*mocks*).  
-- ✅ **Tests de integración** con base de datos en memoria **H2**.  
-- ✅ Ejemplo de aplicación con **repositorio de películas (MovieRepository)**.  
-- ✅ Uso de **Maven** para la gestión de dependencias y build.  
-- ✅ Estructura clara de proyecto siguiendo buenas prácticas.  
+This project demonstrates how to implement **automated tests in Java** using **JUnit 5** and **Mockito**, with examples of **unit tests, integration tests, and TDD**. The goal is to showcase best testing practices to ensure software quality.
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📌 Main Features
+- ✅ **JUnit 5** for unit testing.  
+- ✅ **Mockito** for mocking dependencies.  
+- ✅ **Integration tests** with in-memory database **H2**.  
+- ✅ Example application with **MovieRepository**.  
+- ✅ **Maven** for dependency management and build.  
+- ✅ Clear project structure following best practices.  
+
+---
+
+## 🗂️ Project Structure
 .
 ├── src
 
@@ -42,68 +48,65 @@ Este proyecto demuestra cómo implementar **pruebas automáticas en Java** utili
 
 ---
 
-## ⚙️ Requisitos
-- **Java 17 o superior**  
+## ⚙️ Requirements
+- **Java 17 or higher**  
 - **Maven 3.8+**  
-- IDE recomendado: IntelliJ IDEA o Eclipse  
+- Recommended IDE: IntelliJ IDEA or Eclipse  
 
 ---
 
-## 🚀 Instalación y ejecución
-1. Clonar el repositorio:
+## 🚀 Installation and Execution
+1. Clone the repository:
    ```bash
-   git clone https://github.com/juanfcoesq/AT-Java.git
+   git clone https://github.com/your-username/automated-testing-java.git
    cd automated-testing-java
-Compilar el proyecto:
+Build the project:
 
 bash
 Copy code
 mvn clean install
-Ejecutar los tests:
+Run the tests:
 
 bash
 Copy code
 mvn test
-🧪 Ejemplo de Test Unitario
+🧪 Unit Test Example
 java
 Copy code
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculadoraTest {
+class CalculatorTest {
 
     @Test
-    void testSuma() {
-        Calculadora calc = new Calculadora();
-        int resultado = calc.sumar(2, 3);
-        assertEquals(5, resultado); // Verifica el resultado esperado
+    void testAddition() {
+        Calculator calc = new Calculator();
+        int result = calc.add(2, 3);
+        assertEquals(5, result); // Verifies the expected result
     }
 }
 
-📖 Documentación
+---
+
+### 📖 Documentation
 JUnit 5 User Guide
 
 Mockito Documentation
 
 Spring JDBC Template
 
-🤝 Contribuciones
-Las contribuciones son bienvenidas:
+### 🤝 Contributing
+Contributions are welcome:
 
-Haz un fork del proyecto.
+Fork the project.
 
-Crea una rama (git checkout -b feature/nueva-funcionalidad).
+Create a branch (git checkout -b feature/new-feature).
 
-Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
+Make your changes and commit (git commit -m 'Add new feature').
 
-Haz push a la rama (git push origin feature/nueva-funcionalidad).
+Push to the branch (git push origin feature/new-feature).
 
-Abre un Pull Request.
+Open a Pull Request.
 
-📜 Licencia
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para fines personales y comerciales.
-
-css
-Copy code
-
-¿Quieres que además te lo adapte con **badges** (por ejemplo de Maven, JUnit o estado de build) para que
+### 📜 License
+This project is licensed under the **MIT License**. You are free to use it for personal and commercial purposes.
