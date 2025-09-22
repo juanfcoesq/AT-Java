@@ -58,7 +58,7 @@ This project demonstrates how to implement **automated tests in Java** using **J
 ## 🚀 Installation and Execution
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/automated-testing-java.git
+   git clone https://github.com/juanfcoesq/AT-Java.git
    cd automated-testing-java
 Build the project:
 
